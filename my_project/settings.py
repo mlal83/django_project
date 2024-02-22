@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-=h=5htex!=21=d8a=0i*$%*$*tk&rw+&!q#=82=tnldvb0cmbe
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['8000-mlal83-djangoproject-6fdlqzeoam8.ws-eu108.gitpod.io','.herokuapp.com']
+ALLOWED_HOSTS = ['8000-mlal83-djangoproject-6fdlqzeoam8.ws-eu108.gitpod.io', '.herokuapp.com']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'hello_world',
     'about',
+    
 ]
 
 MIDDLEWARE = [
@@ -123,3 +124,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
